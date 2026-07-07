@@ -1,0 +1,28 @@
+{
+  "identifier" : "BatchVine",
+  "nonRenewingSubscriptions" : [],
+  "products" : [
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : false,
+      "internalID" : "wreathmakinglog_pro",
+      "localizations" : [
+        {
+          "description" : "Seasonal inventory tracker for reusable wreath bases",
+          "displayName" : "Batch Vine - Wreath Making Log Pro",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "wreathmakinglog_pro",
+      "referenceName" : "Batch Vine - Wreath Making Log Pro",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+  },
+  "subscriptionGroups" : [],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

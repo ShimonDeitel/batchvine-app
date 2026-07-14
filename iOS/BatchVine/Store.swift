@@ -34,7 +34,7 @@ final class Store: ObservableObject {
         isPro || entries.count < Store.freeLimit
     }
 
-    func add(base: String, embellishments: String, season: String, notes: String) {
+    func add(name: String, base: String, embellishments: String, season: String, notes: String) {
         guard canAddMore else { return }
         let entry = WreathEntry(name: name, base: base, embellishments: embellishments, season: season, notes: notes)
         entries.insert(entry, at: 0)
